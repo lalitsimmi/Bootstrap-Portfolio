@@ -1,0 +1,30 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #333;
+  background: #e9e3b4;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  color: #eee;
+  text-align: left;
+  background-color: aquamarine;
+  padding: 20px;
+  }
+
+li {
+  display: inline;
+  display: block;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+footer{
+  padding: 14px 16px;
+  text-align: center;
+  
+}
