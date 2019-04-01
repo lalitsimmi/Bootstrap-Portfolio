@@ -1,81 +1,68 @@
-<!-- Demo Layout for Bootstrap (with panels) -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>My First Website</title>
+  <title>About | Your Name</title>
 
-  <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link rel="stylesheet" href="./css/float-style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-default">
+  <header id="masthead">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-          aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <h1>Lalit Kumar</h1>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
+      <a href="index.html" id="logo">Lalit Kumar</a>
+      <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-          <li><a href="index.html"> About </a></li>
-          <li><a href="portfolio.html"> Portfolio </a></li>
-          <li><a href="contact.html"> Contact </a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+
+            </div>
+          </div>
+        </nav>
+      </nav>
     </div>
-    <!--/.container-fluid -->
-  </nav>
+  </header>
 
-  <!-- Main Body goes in Container -->
-  <div class="container">
-
-    <div class="row">
-
-      <!-- The content in this div gets wrapped in a panel -->
-      <div>
-        <h2>About me</h2>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <div class="row">
+        <h1>About Me</h1>
       </div>
-    </div>
+
+      <div class="row">
+        <div class="col-md-3">
+            <img src="assets/images/file1.jpg" class="auth-image" alt="Your Name">
+        </div>
+
+        <div class="col-md-9">
+            <p>I am an Dynamic and motivated professional with a proven record of generating and building relationships,
+                managing projects from concept to completion.</p>
+        
+              <p>I am an adaptable and transformational leader with an ability to
+                work independently, creating effective presentations, and developing opportunities that further establish
+                organizational goals. Skilled in building cross-functional teams, demonstrating exceptional communication
+                skills,and making critical decisions during challenges.</p>
+        
+              <p>I like to learn new technology. I like to travel. I like Indian
+                food.</p>
+        </div>
+
+    </section>
+
   </div>
 
-  <div class="row">
-    <div class="col-lg-3">
-      <img class="img img-thumbnail" src="Images\file1.jpg" alt="Lalit Kumar">
+  <footer>
+    <div class="container">
+      Copyright &copy;
     </div>
-    <div class="col-lg-9">
-
-      <p>I am an Dynamic and motivated professional with a proven record of generating and building relationships,
-        managing projects from concept to completion. I am an adaptable and transformational leader with an ability to
-        work independently, creating effective presentations, and developing opportunities that further establish
-        organizational goals. Skilled in building cross-functional teams, demonstrating exceptional communication
-        skills, and making critical decisions during challenges.I like to learn new technology. I like to travel. I
-        like Indian food.
-      </p>
-    </div>
-  </div>
-
-  <br>
-  <footer class="footer">
-    <p>copyright</p>
   </footer>
-  </div>
 </body>
 
 </html>
